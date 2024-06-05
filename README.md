@@ -21,7 +21,7 @@ du -sbh
 > Ответ: 361K
 5) **Объём исходного кода**
 ```
-ind -type f -name "*.c" -exec du -shc {} +
+find -type f -name "*.c" -exec du -shc {} +
 ```
 72K
 ```
